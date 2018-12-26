@@ -1,0 +1,52 @@
+/* HEADER */
+header {
+  background-image: url(../images/hero-img.png);
+  background-size: cover;
+  background-position: center;
+  height: 745px;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* INTRO SECTION */
+.section-intro {
+  background-image: url(../images/section-intro-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 492px;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* DESIGN SECTION */
+.section-design {
+  height: 558px;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* COMMUNITY SECTION */
+.section-community {
+  background-color: #f5f6f7;
+  height: 484px;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* SUBSCRIBE SECTION */
+.section-subscribe {
+  background-image: url(../images/section-subscribe-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 790px;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* DOWNLAOD SECTION */
+.section-download {
+  background-color: #f5f6f7;
+  height: 396px;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+/* FOOTER */
+footer {
+  height: 161px;
+}
+/* ------------------------------------------------------------------------------------------ */
