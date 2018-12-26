@@ -6,26 +6,32 @@
   font-family: GothamRoundedBold;
   src: url(../fonts/GothamRounded-Bold.otf);
 }
+@font-face {
+  font-family: GothamRounded;
+  src: url(../fonts/GothamRounded-Book.otf);
+}
 * {
   box-sizing: border-box !important;
+  letter-spacing: 2px;
 }
 a {
-  color: #FFF !important;
+  color: #fff !important;
 }
 .btn-success {
   background-color: #16a085 !important;
 }
 body {
   font-size: 18px;
+  font-family: GothamRoundedBold, Times, serif;
 }
 /* HEADER */
 header {
-  font-family: GothamRoundedMedium, Times, serif;
   background-image: url(../images/hero-img.png);
   background-size: cover;
   background-position: center;
-  height: 745px;
-  color: #FFF;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #fff;
 }
 .nav {
   width: 100%;
@@ -44,13 +50,14 @@ header {
 }
 .hero-content h1 {
   letter-spacing: 10px;
-  font-size: 24px;
+  font-size: 200%;
 }
 .hero-content p {
-  letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 120%;
+  font-family: GothamRounded, Times, serif;
 }
-.hero-content h1, .hero-content button {
+.hero-content h1,
+.hero-content button {
   text-transform: uppercase;
 }
 .hero-icons {
@@ -61,7 +68,10 @@ header {
   font-size: 130%;
 }
 .btn-success {
-  font-size: 8px;
+  width: 166px;
+  height: 49;
+  font-family: GothamRounded, Times, serif;
+  font-size: 75%;
 }
 
 /* ------------------------------------------------------------------------------------------ */
@@ -71,7 +81,19 @@ header {
   background-image: url(../images/section-intro-bg.png);
   background-size: cover;
   background-position: center;
-  height: 492px;
+  height: auto;
+  padding: 115px;
+}
+.intro-content h2 {
+  color: #16a085;
+  text-transform: uppercase;
+  font-size: 130%;
+  margin-bottom: 50px;
+}
+.intro-content p {
+  font-family: GothamRounded, Times, serif;
+  font-size: 80%;
+  margin-bottom: 50px;
 }
 /* ------------------------------------------------------------------------------------------ */
 
