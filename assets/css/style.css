@@ -1,10 +1,69 @@
+@font-face {
+  font-family: GothamRoundedMedium;
+  src: url(../fonts/GothamRounded-Medium.otf);
+}
+@font-face {
+  font-family: GothamRoundedBold;
+  src: url(../fonts/GothamRounded-Bold.otf);
+}
+* {
+  box-sizing: border-box !important;
+}
+a {
+  color: #FFF !important;
+}
+.btn-success {
+  background-color: #16a085 !important;
+}
+body {
+  font-size: 18px;
+}
 /* HEADER */
 header {
+  font-family: GothamRoundedMedium, Times, serif;
   background-image: url(../images/hero-img.png);
   background-size: cover;
   background-position: center;
   height: 745px;
+  color: #FFF;
 }
+.nav {
+  width: 100%;
+  margin-top: 55px;
+}
+.nav-item {
+  padding: 0 30px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+}
+.logo {
+  text-align: center;
+  margin-top: 40px;
+}
+.hero-content h1 {
+  letter-spacing: 10px;
+  font-size: 24px;
+}
+.hero-content p {
+  letter-spacing: 2px;
+  font-size: 11px;
+}
+.hero-content h1, .hero-content button {
+  text-transform: uppercase;
+}
+.hero-icons {
+  margin: 25px;
+}
+.hero-icons i {
+  padding: 0 8px;
+  font-size: 130%;
+}
+.btn-success {
+  font-size: 8px;
+}
+
 /* ------------------------------------------------------------------------------------------ */
 
 /* INTRO SECTION */
