@@ -19,6 +19,20 @@ a {
 }
 .btn-success {
   background-color: #16a085 !important;
+  font-family: GothamRounded, Times, serif;
+  font-size: 75%;
+  text-transform: uppercase;
+}
+p {
+  font-family: GothamRounded, Times, serif;
+  font-size: 80%;
+  margin-bottom: 50px;
+}
+h2 {
+  color: #16a085;
+  text-transform: uppercase;
+  font-size: 130%;
+  margin-bottom: 50px;
 }
 body {
   font-size: 18px;
@@ -54,7 +68,6 @@ header {
 }
 .hero-content p {
   font-size: 120%;
-  font-family: GothamRounded, Times, serif;
 }
 .hero-content h1,
 .hero-content button {
@@ -84,12 +97,7 @@ header {
   height: auto;
   padding: 115px;
 }
-.intro-content h2 {
-  color: #16a085;
-  text-transform: uppercase;
-  font-size: 130%;
-  margin-bottom: 50px;
-}
+
 .intro-content p {
   font-family: GothamRounded, Times, serif;
   font-size: 80%;
@@ -99,7 +107,39 @@ header {
 
 /* DESIGN SECTION */
 .section-design {
-  height: 558px;
+  padding: 115px;
+  overflow: hidden;
+}
+.iphone-container {
+  position: relative;
+}
+.iphone-img {
+  position: absolute;
+}
+.design-pagination p {
+  margin-top: 50px;
+}
+.design-pagination {
+  position: relative;
+}
+.left-arrow:before {
+  content: '\003C';
+  display: inline-block;
+  color: #000;
+  position: absolute;
+  top: 20px;
+  font-size: 130%;
+  font-family: GothamRounded, Times, serif;
+}
+.right-arrow:before {
+  content: '\003E';
+  display: inline-block;
+  color: #000;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 130%;
+  font-family: GothamRounded, Times, serif;
 }
 /* ------------------------------------------------------------------------------------------ */
 
