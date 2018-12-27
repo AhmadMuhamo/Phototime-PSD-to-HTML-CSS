@@ -198,7 +198,16 @@ comm-img-container img {
 /* DOWNLAOD SECTION */
 .section-download {
   background-color: #f5f6f7;
-  height: 396px;
+  padding: 115px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.download-btn {
+  padding: 25px;
+  height: 55px;
+}
+.download-addon {
+  width: 50px;
 }
 /* ------------------------------------------------------------------------------------------ */
 
