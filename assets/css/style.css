@@ -214,5 +214,23 @@ comm-img-container img {
 /* FOOTER */
 footer {
   height: 161px;
+  color: #6c6c6c;
+  padding: 48px 128px;
+}
+.footer-nav {
+  list-style: none;
+  padding-left: 0;
+}
+.footer-nav li {
+  display: inline-block;
+}
+.footer-nav li a {
+  color: #6c6c6c !important;
+  text-transform: uppercase;
+}
+.separator:after {
+  content: "|";
+  display: inline-block;
+  color: #16a085;
 }
 /* ------------------------------------------------------------------------------------------ */
