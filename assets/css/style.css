@@ -174,6 +174,24 @@ comm-img-container img {
   background-size: cover;
   background-position: center;
   height: 790px;
+  padding: 115px;
+}
+.subscribe-content h2 {
+  color: #FFF;
+  letter-spacing: 5px;
+}
+.input-group {
+  width: 345px;
+  margin: 0 auto;
+}
+.subscribe-content input {
+  padding: 25px;
+}
+#button-addon2 {
+  width: 50px;
+}
+.subscribe-content {
+  height: 100%;
 }
 /* ------------------------------------------------------------------------------------------ */
 
