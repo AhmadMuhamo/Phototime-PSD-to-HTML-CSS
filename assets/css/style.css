@@ -147,6 +147,24 @@ header {
 .section-community {
   background-color: #f5f6f7;
   height: 484px;
+  color: #000;
+  padding: 115px;
+}
+.community-content {
+  text-align: center;
+}
+.community-content img, .community-content h2 {
+  margin-bottom: 30px;
+}
+.comm-img-container {
+  width: 373px;
+}
+comm-img-container img {
+  width: 100%;
+}
+.pagination-arrows a{
+  display: inline-block;
+  color: #000 !important;
 }
 /* ------------------------------------------------------------------------------------------ */
 
