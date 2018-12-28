@@ -24,14 +24,14 @@
   </head>
 
   <body>
-    <header>
+    <header id="home">
       <div class="container h-100 d-flex flex-column">
         <div class="row">
           <div class="col-md-5">
             <ul class="nav justify-content-end">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Photoapp</a>
+                <a class="nav-link" href="#intro">Photoapp</a>
               </li>
             </ul>
           </div>
@@ -40,9 +40,9 @@
           </div>
           <div class="col-md-5 ">
             <ul class="nav justify-content-start">
-              <li class="nav-item"><a class="nav-link" href="#">Design</a></li>
+              <li class="nav-item"><a class="nav-link" href="#design">Design</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Download</a>
+                <a class="nav-link" href="#download">Download</a>
               </li>
             </ul>
           </div>
@@ -61,7 +61,7 @@
         </div>
       </div>
     </header>
-    <section class="section-intro">
+    <section class="section-intro" id="intro">
       <div class="row">
         <div class="col-md-6 intro-content">
           <h2>Rappresent your life with a simple photo</h2>
@@ -75,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section class="section-design">
+    <section class="section-design" id="design">
       <div class="row">
         <div class="col-md-6 iphone-container">
           <img
@@ -95,48 +95,49 @@
           <button class="btn btn-lg btn-success">Learn more</button>
           <div class="design-pagination">
             <p>01/05</p>
-            <a href="#" class="left-arrow"></a>
-            <a href="#" class="right-arrow"></a>
+            <div class="pagination-arrows">
+              <a href="#"> <i class="fas fa-angle-left"></i> </a>
+              <a href="#"> <i class="fas fa-angle-right"></i> </a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section-community">
-      <div class="row">
-        <div class="pagination-arrows ml-auto">
+    <section class="section-community" id="community">
+      <div class="row d-flex justify-content-end">
+        <div class="pagination-arrows">
           <a href="#"> <i class="fas fa-angle-left"></i> </a>
           <a href="#"> <i class="fas fa-angle-right"></i> </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3 community-content">
+      <div class="row d-flex justify-content-between">
+        <div class="community-content">
           <img src="./assets/images/logo-green.png" alt="photoapp logo" />
           <h2>our community</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
         </div>
-        <div class="col-md-5">
-          <div class="comm-img-container">
-            <img
-              src="./assets/images/section-community-img1.png"
-              alt="van photo"
-            />
-          </div>
+        <div class="comm-img-container">
+          <img
+            src="./assets/images/section-community-img1.png"
+            alt="van photo"
+          />
         </div>
-        <div class="col-md-4">
-          <div class="comm-img-container">
-            <img
-              src="./assets/images/section-community-img2.png"
-              alt="tree photo"
-            />
-          </div>
+        <div class="comm-img-container">
+          <img
+            src="./assets/images/section-community-img2.png"
+            alt="tree photo"
+          />
         </div>
       </div>
     </section>
-    <section class="section-subscribe d-flex justify-content-center">
+    <section
+      class="section-subscribe d-flex justify-content-center"
+      id="subscribe"
+    >
       <div class="row my-auto">
         <div class="col-md-12 subscribe-content text-center">
           <h2>subscribe to us community</h2>
-          <div class="input-group mb-3">
+          <div class="input-group community-input-group mb-3">
             <input
               type="email"
               class="form-control"
@@ -153,55 +154,54 @@
         </div>
       </div>
     </section>
-    <section class="section-download">
+    <section class="section-download" id="download">
       <div class="row">
         <div class="col-10 download-content mx-auto">
-          <h3>download it</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <div class="row download-btns">
-            <div class="col">
-              <div class="input-group">
+          <div class="row d-flex align-items-center justify-content-center">
+            <h3>download it</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+
+          <div class="row d-flex justify-content-center">
+            <div class="input-group download-input-group mx-3 mb-2">
+              <button
+                class="form-control download-btn"
+                type="button"
+                aria-describedby="button-addon3"
+              >
+                APPLE STORE
+              </button>
+              <div class="input-group-append download-addon">
                 <button
-                  class="form-control download-btn"
+                  class="btn btn-success"
                   type="button"
-                  aria-describedby="button-addon3"
+                  id="button-addon3"
                 >
-                  APPLE STORE
+                  <i class="fab fa-apple"></i>
                 </button>
-                <div class="input-group-append download-addon">
-                  <button
-                    class="btn btn-success"
-                    type="button"
-                    id="button-addon3"
-                  >
-                    <i class="fab fa-apple"></i>
-                  </button>
-                </div>
               </div>
             </div>
-            <div class="col">
-              <div class="input-group">
+            <div class="input-group download-input-group mx-3 mb-2">
+              <button
+                type="button"
+                class="form-control download-btn"
+                aria-describedby="button-addon4"
+              >
+                PLAY STORE
+              </button>
+              <div class="input-group-append">
                 <button
+                  class="btn btn-success download-addon"
                   type="button"
-                  class="form-control download-btn"
-                  aria-describedby="button-addon4"
+                  id="button-addon4"
                 >
-                  PLAY STORE
+                  <i class="fab fa-android"></i>
                 </button>
-                <div class="input-group-append">
-                  <button
-                    class="btn btn-success download-addon"
-                    type="button"
-                    id="button-addon4"
-                  >
-                    <i class="fab fa-android"></i>
-                  </button>
-                </div>
               </div>
             </div>
           </div>
