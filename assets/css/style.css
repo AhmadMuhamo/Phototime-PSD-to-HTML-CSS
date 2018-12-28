@@ -42,6 +42,10 @@ h2 {
 body {
   font-size: 18px;
   font-family: GothamRoundedBold, Times, serif;
+  color: #373737;
+}
+section {
+  padding: 115px;
 }
 /* HEADER */
 header {
@@ -73,6 +77,8 @@ header {
 .logo {
   text-align: center;
   margin-top: 40px;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 .hero-content h1 {
   letter-spacing: 10px;
@@ -92,6 +98,10 @@ header {
   padding: 0 8px;
   font-size: 130%;
   color: #fff;
+  transition: color 0.2s;
+}
+.hero-icons i:hover {
+  color: #16a085 !important;
 }
 .btn-success {
   width: 166px;
@@ -108,7 +118,6 @@ header {
   background-size: cover;
   background-position: center;
   height: auto;
-  padding: 115px;
 }
 
 .intro-content p {
@@ -120,7 +129,6 @@ header {
 
 /* DESIGN SECTION */
 .section-design {
-  padding: 115px;
   overflow: hidden;
 }
 .iphone-container {
@@ -144,21 +152,28 @@ header {
   background-color: #f5f6f7;
   height: auto;
   color: #000;
-  padding: 115px;
 }
+
 .community-content {
   text-align: center;
-  width: 250px;
+  width: 230px;
 }
-.community-content img,
+.community-content img {
+  width: 55px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 .community-content h2 {
   margin-bottom: 30px;
+  color: #373737;
+  font-size: 120%;
+}
+.community-images .comm-img-container:last-child {
+  margin-left: 25px;
 }
 .comm-img-container {
   width: 373px;
-}
-comm-img-container img {
-  width: 100%;
 }
 .pagination-arrows a {
   display: inline-block;
@@ -176,13 +191,12 @@ comm-img-container img {
   background-size: cover;
   background-position: center;
   height: 790px;
-  padding: 115px;
 }
 .subscribe-content h2 {
   color: #fff;
   letter-spacing: 5px;
 }
-.community-input-group {
+.subscribe-input-group {
   width: 345px;
   margin: 0 auto;
 }
@@ -200,9 +214,16 @@ comm-img-container img {
 /* DOWNLAOD SECTION */
 .section-download {
   background-color: #f5f6f7;
-  padding: 115px;
   text-align: center;
   text-transform: uppercase;
+}
+.section-download h2 {
+  color: #373737;
+  margin-bottom: 10px;
+}
+.section-download p {
+  font-family: GothamRoundedMedium, Times, serif;
+  font-size: 58%;
 }
 .download-input-group {
   width: 345px;
@@ -238,7 +259,7 @@ comm-img-container img {
 /* FOOTER */
 footer {
   height: 161px;
-  color: #6c6c6c;
+  color: #373737;
   padding: 48px 128px;
 }
 .footer-nav {
@@ -249,7 +270,7 @@ footer {
   display: inline-block;
 }
 .footer-nav li a {
-  color: #6c6c6c !important;
+  color: #373737 !important;
   text-transform: uppercase;
   text-decoration: none;
   transition: color 0.3s;
@@ -263,3 +284,165 @@ footer {
   color: #16a085;
 }
 /* ------------------------------------------------------------------------------------------ */
+
+@media (max-width: 1199px) {
+  .nav-item {
+    padding: 0 10px;
+  }
+  .community-content {
+    order: 1;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .pagination-arrows {
+    order: 2;
+  }
+  .community-images {
+    width: 80%;
+    order: 3;
+    margin-bottom: 30px auto;
+  }
+}
+@media (max-width: 991px) {
+  section {
+    padding: 60px;
+  }
+  .nav-item {
+    padding: 0 5px;
+  }
+  .logo {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 851px) {
+  .community-images {
+    width: 100%;
+    flex-direction: column;
+  }
+  .comm-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .community-images .comm-img-container:last-child {
+    margin: 25px auto;
+  }
+  footer {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 768px) {
+  .iphone-img {
+    top: 200px;
+    left: 250px;
+  }
+  h1 {
+    font-size: 150% !important;
+    letter-spacing: 8px !important;
+  }
+}
+/* for responsive navbar later */
+@media (max-width: 768px) {
+}
+@media (max-width: 711px) {
+  footer {
+    padding: 48px 60px;
+  }
+  .separator {
+    display: none;
+  }
+}
+@media (max-width: 626px) {
+  .footer-nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  body {
+    font-size: 16px;
+  }
+  .section-design {
+    height: 700px;
+  }
+  .iphone-img {
+    transform: translate(-50%, 20%);
+  }
+}
+@media (max-width: 479px) {
+  section {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 110% !important;
+  }
+  header p {
+    font-size: 80% !important;
+  }
+  .section-design {
+    height: 500px;
+  }
+  .iphone-img {
+    transform: translate(-70%, 20%);
+  }
+}
+@media (max-width: 414px) {
+  .iphone-img {
+    transform: translate(-55%, 20%);
+  }
+}
+@media (max-width: 375px) {
+  h2 {
+    font-size: 110% !important;
+  }
+  .section-intro h2,
+  .section-intro p,
+  .section-design h2,
+  .section-design p {
+    margin-bottom: 30px;
+  }
+  .iphone-img {
+    width: 200px;
+  }
+  .iphone-img {
+    transform: translate(-60%, 35%);
+  }
+}
+@media (max-width: 320px) {
+  footer {
+    padding: 30px;
+  }
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 90% !important;
+  }
+  .community-images img {
+    width: 80%;
+    height: auto;
+  }
+  .section-subscribe {
+    height: 300px;
+  }
+  .section-subscribe h2 {
+    letter-spacing: 2px !important;
+  }
+  .subscribe-input-group {
+    width: 90%;
+  }
+  .subscribe-input-group input {
+    padding: 10px;
+  }
+  .download-input-group {
+    width: 155px;
+  }
+  .download-btn {
+    height: 30px;
+    font-size: 80%;
+  }
+  .download-addon {
+    width: 35px;
+    height: 30px;
+  }
+}

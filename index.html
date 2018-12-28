@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Phototime</title>
     <link
@@ -22,38 +19,21 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-
   <body>
     <header id="home">
       <div class="container h-100 d-flex flex-column">
-        <div class="row">
-          <div class="col-md-5">
-            <ul class="nav justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#intro">Photoapp</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-2 logo justify-content-center">
-            <img src="./assets/images/logo.png" alt="Photoapp Logo" />
-          </div>
-          <div class="col-md-5 ">
-            <ul class="nav justify-content-start">
-              <li class="nav-item">
-                <a class="nav-link" href="#design">Design</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#download">Download</a>
-              </li>
-            </ul>
-          </div>
+        <div class="d-flex flex-row justify-content-center">
+          <ul class="nav justify-content-end">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#intro">Photoapp</a></li>
+          </ul>
+          <div class="logo justify-content-center"><img src="./assets/images/logo.png" alt="Photoapp Logo" /></div>
+          <ul class="nav justify-content-start">
+            <li class="nav-item"><a class="nav-link" href="#design">Design</a></li>
+            <li class="nav-item"><a class="nav-link" href="#download">Download</a></li>
+          </ul>
         </div>
-        <div
-          class="row hero-content d-flex flex-column align-items-center my-auto"
-        >
+        <div class="row hero-content d-flex flex-column align-items-center my-auto">
           <h1>your life , a photo</h1>
           <p>print your life in a simple photo</p>
           <button class="btn btn-lg btn-success">Get Started</button>
@@ -66,144 +46,119 @@
       </div>
     </header>
     <section class="section-intro" id="intro">
-      <div class="row">
-        <div class="col-md-6 intro-content">
-          <h2>Rappresent your life with a simple photo</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            <strong>enim ad minim</strong> veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <button class="btn btn-lg btn-success">Get Started</button>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-md-8 col-lg-6 intro-content">
+            <h2>Rappresent your life with a simple photo</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut <strong>enim ad minim</strong> veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="btn btn-lg btn-success">Get Started</button>
+          </div>
         </div>
       </div>
     </section>
     <section class="section-design" id="design">
-      <div class="row">
-        <div class="col-md-6 iphone-container">
-          <img
-            src="./assets/images/iphone.png"
-            alt="iPhone photo"
-            class="iphone-img"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2>DESIGN</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            <strong>enim ad minim</strong> veniam, quis nostrud exercitation
-            ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
-          <button class="btn btn-lg btn-success">Learn more</button>
-          <div class="design-pagination">
-            <p>01/05</p>
-            <div class="pagination-arrows">
-              <a href="#"> <i class="fas fa-angle-left"></i> </a>
-              <a href="#"> <i class="fas fa-angle-right"></i> </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 iphone-container">
+            <img src="./assets/images/iphone.png" alt="iPhone photo" class="iphone-img" />
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-6 design-content">
+            <h2>DESIGN</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut <strong>enim ad minim</strong> veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <button class="btn btn-lg btn-success">Learn more</button>
+            <div class="design-pagination">
+              <p>01/05</p>
+              <div class="pagination-arrows">
+                <a href="#"> <i class="fas fa-angle-left"></i> </a> <a href="#"> <i class="fas fa-angle-right"></i> </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="section-community" id="community">
-      <div class="row d-flex justify-content-end">
-        <div class="pagination-arrows">
-          <a href="#"> <i class="fas fa-angle-left"></i> </a>
-          <a href="#"> <i class="fas fa-angle-right"></i> </a>
+      <div class="container">
+        <div class="row d-flex justify-content-end pagination-arrows">
+          <div>
+            <a href="#"> <i class="fas fa-angle-left"></i> </a> <a href="#"> <i class="fas fa-angle-right"></i> </a>
+          </div>
         </div>
-      </div>
-      <div class="row d-flex justify-content-between">
-        <div class="community-content">
-          <img src="./assets/images/logo-green.png" alt="photoapp logo" />
-          <h2>our community</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-        </div>
-        <div class="comm-img-container">
-          <img
-            src="./assets/images/section-community-img1.png"
-            alt="van photo"
-          />
-        </div>
-        <div class="comm-img-container">
-          <img
-            src="./assets/images/section-community-img2.png"
-            alt="tree photo"
-          />
+        <div class="row d-flex justify-content-between">
+          <div class="d-flex flex-column justify-content-center community-content">
+            <img src="./assets/images/logo-green.png" alt="photoapp logo" />
+            <h2>our community</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+          </div>
+          <div class="community-images d-flex justify-content-between">
+            <div class="comm-img-container">
+              <img src="./assets/images/section-community-img1.png" alt="van photo" />
+            </div>
+            <div class="comm-img-container">
+              <img src="./assets/images/section-community-img2.png" alt="tree photo" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section
-      class="section-subscribe d-flex justify-content-center"
-      id="subscribe"
-    >
-      <div class="row my-auto">
-        <div class="col-md-12 subscribe-content text-center">
-          <h2>subscribe to us community</h2>
-          <div class="input-group community-input-group mb-3">
-            <input
-              type="email"
-              class="form-control"
-              placeholder="YOUR EMAIL"
-              aria-label="RYOUR EMAIL"
-              aria-describedby="button-addon2"
-            />
-            <div class="input-group-append">
-              <button class="btn btn-success" type="button" id="button-addon2">
-                <i class="fas fa-check"></i>
-              </button>
+    <section class="section-subscribe " id="subscribe">
+      <div class="container d-flex justify-content-center h-100">
+        <div class="row my-auto">
+          <div class="col-12 subscribe-content text-center">
+            <h2>subscribe to our community</h2>
+            <div class="input-group subscribe-input-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="YOUR EMAIL"
+                aria-label="YOUR EMAIL"
+                aria-describedby="button-addon2"
+              />
+              <div class="input-group-append">
+                <button class="btn btn-success" type="button" id="button-addon2"><i class="fas fa-check"></i></button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="section-download" id="download">
-      <div class="row">
-        <div class="col-10 download-content mx-auto">
-          <div class="row d-flex align-items-center justify-content-center">
-            <h3>download it</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-
-          <div class="row d-flex justify-content-center">
-            <div class="input-group download-input-group mx-3 mb-2">
-              <button
-                class="form-control download-btn"
-                type="button"
-                aria-describedby="button-addon3"
-              >
-                APPLE STORE
-              </button>
-
-              <div class="input-group-append download-addon">
-                <button class="btn btn-success" id="button-addon3">
-                  <i class="fab fa-apple"></i>
-                </button>
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-10 download-content mx-auto">
+            <div class="row d-flex align-items-center justify-content-center">
+              <h2>download it</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+              </p>
             </div>
-
-            <div class="input-group download-input-group mx-3 mb-2">
-              <button
-                type="button"
-                class="form-control download-btn"
-                aria-describedby="button-addon4"
-              >
-                PLAY STORE
-              </button>
-              <div class="input-group-append download-addon">
-                <button
-                  class="btn btn-success "
-                  type="button"
-                  id="button-addon4"
-                >
-                  <i class="fab fa-android"></i>
+            <div class="row d-flex justify-content-center">
+              <div class="input-group download-input-group mx-3 mb-2">
+                <button class="form-control download-btn" type="button" aria-describedby="button-addon3">
+                  APPLE STORE
                 </button>
+                <div class="input-group-append download-addon">
+                  <button class="btn btn-success" id="button-addon3"><i class="fab fa-apple"></i></button>
+                </div>
+              </div>
+              <div class="input-group download-input-group mx-3 mb-2">
+                <button type="button" class="form-control download-btn" aria-describedby="button-addon4">
+                  PLAY STORE
+                </button>
+                <div class="input-group-append download-addon">
+                  <button class="btn btn-success " type="button" id="button-addon4">
+                    <i class="fab fa-android"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
