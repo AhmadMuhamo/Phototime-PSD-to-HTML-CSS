@@ -20,6 +20,14 @@
   font-size: 75%;
   text-transform: uppercase;
 }
+.btn-lg {
+  height: 50px;
+}
+.btn-lg:hover,
+.btn-success:active {
+  color: #16a085;
+  background-color: #fff !important;
+}
 p {
   font-family: GothamRounded, Times, serif;
   font-size: 80%;
@@ -54,10 +62,13 @@ header {
 
 .nav-link {
   text-transform: uppercase;
-  color: #FFF;
+  color: #fff;
+  transition: color 0.2s, border-bottom 0.2s ease-in-out;
+  border-bottom: 3px solid transparent;
 }
 .nav-link:hover {
   color: #16a085;
+  border-bottom: 3px solid #fff;
 }
 .logo {
   text-align: center;
@@ -80,6 +91,7 @@ header {
 .hero-icons i {
   padding: 0 8px;
   font-size: 130%;
+  color: #fff;
 }
 .btn-success {
   width: 166px;
@@ -138,7 +150,8 @@ header {
   text-align: center;
   width: 250px;
 }
-.community-content img, .community-content h2 {
+.community-content img,
+.community-content h2 {
   margin-bottom: 30px;
 }
 .comm-img-container {
@@ -147,7 +160,7 @@ header {
 comm-img-container img {
   width: 100%;
 }
-.pagination-arrows a{
+.pagination-arrows a {
   display: inline-block;
   color: #000 !important;
   font-size: 150%;
@@ -166,7 +179,7 @@ comm-img-container img {
   padding: 115px;
 }
 .subscribe-content h2 {
-  color: #FFF;
+  color: #fff;
   letter-spacing: 5px;
 }
 .community-input-group {
@@ -197,10 +210,25 @@ comm-img-container img {
 .download-btn {
   height: 55px;
   background-color: #1abc9c;
-  color: #FFF;
+  color: #fff;
+  transition: all 0.2s;
+}
+.download-btn:hover,
+.download-btn:active {
+  background-color: #fff;
+  color: #16a085;
+  cursor: pointer;
 }
 .download-addon {
   width: 50px;
+}
+
+.download-addon button,
+.download-addon button:hover,
+.download-addon button:active {
+  border: none;
+  cursor: default !important;
+  outline: none;
 }
 .download-addon i {
   font-size: 200%;
@@ -223,9 +251,14 @@ footer {
 .footer-nav li a {
   color: #6c6c6c !important;
   text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-nav li a:hover {
+  color: #16a085 !important;
 }
 .separator:after {
-  content: "|";
+  content: '|';
   display: inline-block;
   color: #16a085;
 }
