@@ -46,6 +46,43 @@ $(document).ready(function() {
       }
     });
 
+  /* Scrolling Animations */
+  $('.intro-animate').waypoint(
+    function(direction) {
+      $('.intro-animate').addClass('animated fadeIn');
+    },
+    {
+      offset: '70%'
+    }
+  );
+
+  $('.section-design').waypoint(
+    function(direction) {
+      $('.iphone-img').addClass('animated fadeInUp');
+    },
+    {
+      offset: '70%'
+    }
+  );
+
+  $('.comm-img-container').waypoint(
+    function(direction) {
+      $('.comm-img-container').addClass('animated bounceInUp');
+    },
+    {
+      offset: '70%'
+    }
+  );
+
+  $('.input-group-append').waypoint(
+    function(direction) {
+      $('.fa-check').addClass('animated rubberBand');
+    },
+    {
+      offset: '70%'
+    }
+  );
+
   /* Navbar Collapse */
   $('#nav-collapse').click(function() {
     var nav = $('.nav-left');
