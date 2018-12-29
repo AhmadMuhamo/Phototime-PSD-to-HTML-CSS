@@ -362,7 +362,9 @@ footer {
 .fa-check.animated {
   opacity: 1;
 }
-/* */
+/* ------------------------------------------------------------------------------------------ */
+
+/* MEDIA QUIERIES */
 @media (max-width: 1199px) {
   .nav-item {
     padding: 0 10px;
@@ -427,14 +429,12 @@ footer {
     font-size: 70%;
   }
 }
-
 @media (max-width: 768px) {
   h1 {
     font-size: 150% !important;
     letter-spacing: 8px !important;
   }
 }
-/* for responsive navbar later */
 @media (max-width: 767px) {
   .sticky-nav {
     display: none;
@@ -587,3 +587,4 @@ footer {
     height: 30px;
   }
 }
+/* ------------------------------------------------------------------------------------------ */
